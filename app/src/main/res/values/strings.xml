@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Calendar.io</string>
+    <string name="msg_it_s_time_to_o">"It'S Time to Organize your Day!"</string>
+    <string name="msg_livechat_02_10" translatable="false">Livechat 02:10 PM</string>
+    <string name="msg_design_new_ux_f" translatable="false">Design new UX flow for Michael</string>
+    <string name="msg_hi_i_am_your_pe">Hi I am your personal assistant. What can I help you?</string>
+    <string name="lbl_10_00_13_00" translatable="false">10:00 - 13:00</string>
+    <string name="App_name" translatable="false">CALENDER.io</string>
+    <string name="msg_welcome_michael">Welcome User!</string>
+    <string name="msg_talk_with_your">Talk with your AI assistant</string>
+    <string name="lbl_year" translatable="false">2021</string>
+    <string name="lbl_month">September</string>
+    <string name="hint_message">Write a message</string>
+    <string name="talk_with_your_ai_assistant">Talk with your AI assistant</string>
+    <string name="msg_user">Hi, I want to make a appointment on 25 Feb</string>
+    <string name="notification">notification</string>
+    <string name="lang">Lang</string>
+    <string name="setting">Settings</string>
+    <string name="choose_language">Choose your language</string>
+    <string name="Notifcation_Setting">choose the notification time</string>
+    <string name="slide_the_phone">slide the phone</string>
+    <string name="livechat" translatable="false">Livechat</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thur">THUR</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="calendar">calendar</string>
+    <string name="Error_message">Fuck! You are inputting some Shit that is unacceptable, and I don\'t know fucking why!!!!!!!!</string>
+    <string name="Error_message_null">Please Enter Something</string>
+    <string name="Error_message_long">Your message is too long, please try to make it shorter</string>
+    <string name="disable">Disable Alarm</string>
+    <string name="aug_21_2024">Aug 21, 2024</string>
+    <string name="restart_your_app">Restart your app</string>
+    <string name="_0_min">0 Min</string>
+    <string name="_5_mins">5 Mins</string>
+    <string name="_10_mins">10 Mins</string>
+    <string name="you_must_restart_the_app_to_complete_the_language_change_operation">You must restart the app to complete the language change operation</string>
+    <string name="select_your_date">Select Your date</string>
+    <string name="no_data">You have no data</string>
+    <string name="status">"Status from "</string>
+    <string name="to">" to "</string>
+    <string name="no_data_found">no data found</string>
+    <string name="piechart">Analysis</string>
+
+
+</resources>

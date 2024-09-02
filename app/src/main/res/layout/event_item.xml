@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout android:gravity="start"
+        android:id="@+id/linearColumnovalcopytwo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+        <LinearLayout android:id="@+id/linearRow"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent" android:orientation="horizontal">
+            <LinearLayout android:id="@+id/linearRowovalcopytwo"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.88" android:layout_width="0dp" android:orientation="horizontal">
+                <ImageView
+                    android:src="@drawable/img_event1"
+                    android:id="@+id/event_icon"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"/>
+
+                <TextView android:ellipsize="end"
+                    android:id="@+id/event_time_period_text"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:layout_weight="0.89"
+                    android:layout_width="0dp"
+                    android:letterSpacing="0.04"
+                    android:lineSpacingExtra="3dp"
+                    android:singleLine="true"
+                    android:text="@string/lbl_10_00_13_00"
+                    style="@style/txtABeeZeeitalic12" tools:text="@string/lbl_10_00_13_00"/>
+            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearRowellipseone"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="0.05"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <View-->
+<!--                    android:background="@drawable/rectangle_bg_bluegray_300_radius_1_5"-->
+<!--                    android:layout_width="3dp"-->
+<!--                    android:layout_height="3dp"-->
+<!--                    android:layout_marginEnd="3dp" /> &lt;!&ndash; Add margin here &ndash;&gt;-->
+
+<!--                <View-->
+<!--                    android:background="@drawable/rectangle_bg_bluegray_300_radius_1_5"-->
+<!--                    android:layout_width="3dp"-->
+<!--                    android:layout_height="3dp"-->
+<!--                    android:layout_marginEnd="3dp" /> &lt;!&ndash; Add margin here &ndash;&gt;-->
+
+<!--                <View-->
+<!--                    android:background="@drawable/rectangle_bg_bluegray_300_radius_1_5"-->
+<!--                    android:layout_width="3dp"-->
+<!--                    android:layout_height="3dp" />-->
+
+<!--            </LinearLayout>-->
+        </LinearLayout>
+        <TextView android:ellipsize="end"
+            android:id="@+id/event_title"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="9dp"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.05"
+            android:lineSpacingExtra="3dp"
+            android:singleLine="true"
+            android:text="@string/msg_design_new_ux_f"
+            style="@style/txtABeeZeeitalic16" tools:text="@string/msg_design_new_ux_f"/>
+        <TextView android:ellipsize="end"
+            android:id="@+id/event_description"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="wrap_content"
+            android:letterSpacing="0.04"
+            android:lineSpacingExtra="3dp"
+            android:singleLine="true"
+            android:text="test test test test test"
+            style="@style/txtABeeZeeregular12"/>
+    </LinearLayout>
+</layout>

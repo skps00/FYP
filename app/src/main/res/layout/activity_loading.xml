@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLoading">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|bottom"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/img_bg"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/bgimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitEnd"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/img_spt_bg"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@mipmap/ic_launcher_round"
+            />
+
+        <TextView android:ellipsize="end"
+            android:id="@+id/txtWeburl"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:lineSpacingExtra="4dp"
+            android:singleLine="true"
+            android:text="@string/App_name"
+            style="@style/txtSFUITextbold22" tools:text="@string/App_name"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frameStackovalcopytwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="44dp">
+
+        <TextView
+            android:id="@+id/wellcome_text"
+            style="@style/txtABeeZeeregular12_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:letterSpacing="0.05"
+            android:singleLine="true"
+            android:text="@string/msg_welcome_michael"
+            tools:ignore="TextSizeCheck,VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/txtTittle"
+            style="@style/txtSFUITextbold30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="8dp"
+            android:text="@string/msg_it_s_time_to_o" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/slide_the_phone"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="30dp"
+            app:backgroundTint="#C98f9bb3"
+            app:srcCompat="@drawable/img_slide_phone"
+            app:tint="@color/white_A700_af"
+            style="@style/CircularFloatingActionButton" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

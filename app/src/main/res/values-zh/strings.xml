@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calendar.io</string>
+    <string name="msg_it_s_time_to_o">是時候了安排你的一天！</string>
+    <string name="msg_hi_i_am_your_pe">您好，我是您的私人助理，我能為您提供什麼協助？</string>
+    <string name="msg_welcome_michael">"歡迎您！ "</string>
+    <string name="msg_talk_with_your">與你的人工智慧助理交談</string>
+    <string name="lbl_month">九月</string>
+    <string name="hint_message">寫一則訊息</string>
+    <string name="talk_with_your_ai_assistant">與你的人工智慧助理交談</string>
+    <string name="msg_user">您好，我想預約 2 月 25 日</string>
+    <string name="notification">通知</string>
+    <string name="lang">語言</string>
+    <string name="setting">設定</string>
+    <string name="choose_language">選擇你的語言</string>
+    <string name="Notifcation_Setting">選擇通知時間</string>
+    <string name="slide_the_phone">滑動手機</string>
+    <string name="sun">日</string>
+    <string name="mon">一</string>
+    <string name="tue">二</string>
+    <string name="wed">三</string>
+    <string name="thur">四</string>
+    <string name="fri">五</string>
+    <string name="sat">六</string>
+    <string name="calendar">日曆</string>
+    <string name="Error_message">他媽的！ 你輸入了一些令人無法接受的狗屎，我他媽的不知道為什麼！！！！！！！！！</string>
+    <string name="Error_message_null">請輸入一些內容</string>
+    <string name="Error_message_long">您的留言太長，請嘗試縮短</string>
+    <string name="disable">解除鬧鐘</string>
+    <string name="aug_21_2024">2024 年 8 月 21 日</string>
+    <string name="restart_your_app">重新啟動您的應用程式</string>
+    <string name="_0_min">0分鐘</string>
+    <string name="_5_mins">5分鐘</string>
+    <string name="_10_mins">10分鐘</string>
+    <string name="you_must_restart_the_app_to_complete_the_language_change_operation">您必須重新啟動應用程式才能完成語言變更操作</string>
+    <string name="select_your_date">選擇日期範圍</string>
+    <string name="no_data">沒有數據</string>
+    <string name="status">"統計數據: "</string>
+    <string name="to">至</string>
+    <string name="no_data_found">沒有找到數據</string>
+    <string name="piechart">分析</string>
+</resources>

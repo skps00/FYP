@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearSender"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:background="@drawable/rectangle_bg_white_a700_border_gray_300_radius_14_18"
+                android:id="@+id/btnUser"
+                android:layout_height="28dp"
+                android:layout_width="28dp"
+                android:paddingHorizontal="7dp"
+                android:paddingVertical="7dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="10dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_user"
+                tools:ignore="ContentDescription"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/MessageSender"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="5dp"
+                android:singleLine="true"
+                android:text="Livechat"
+                style="@style/txtInterregular12"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/MessageTime"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="3dp"
+                android:singleLine="true"
+                android:text="02:10 PM"
+                style="@style/txtInterregular12"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/messageText"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="42dp"
+            android:layout_marginStart="42dp"
+            android:gravity="start"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="12dp"
+            android:text="@string/msg_hi_i_am_your_pe"
+            style="@style/txtInterregular18"
+            tools:text="@string/msg_hi_i_am_your_pe"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

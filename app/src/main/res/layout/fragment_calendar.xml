@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="20dp">
+    <ImageButton
+        android:id="@+id/previousButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/img_arrowpointleft"
+        android:background="@null"/>
+
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnthu"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:ellipsize="end"
+            android:id="@+id/monthtxt"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@string/lbl_month"
+            style="@style/txtABeeZeeitalic20"
+            tools:text="@string/lbl_month"/>
+
+        <TextView
+            android:id="@+id/yeartxt"
+            style="@style/txtABeeZeeitalic12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_year"
+            tools:ignore="TextSizeCheck"
+            tools:text="@string/lbl_year" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/img_arrowpointright"
+        android:background="@null"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/sun"
+        android:textColor="@color/red"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/mon"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/tue"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/wed"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/thur"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/fri"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/sat"
+        android:textColor="@color/gray"
+        android:textAlignment="center"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/calendarRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+    app:spanCount="7"
+    tools:itemCount="42"
+    tools:listitem="@layout/calendar_cell" />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/EventRecyclerView"
+    android:orientation="vertical"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    tools:itemCount="10"
+    tools:listitem="@layout/event_item"
+    android:layout_gravity="bottom" />
+</LinearLayout>
+

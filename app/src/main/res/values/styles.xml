@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtABeeZeeitalic20">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtInterregular18">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/bluegray_500</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="btnSolidRounded">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_a200_radius_10</item>
+    </style>
+    <style name="txtRobotoromanregular20">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtInterregular12">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/bluegray_500</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtABeeZeeitalic16">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtABeeZeeregular12">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_1">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_tl_32_tr_32</item>
+    </style>
+    <style name="txtABeeZeeregular13">
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_13</item>
+    </style>
+    <style name="groupStylewhite_3">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_300</item>
+    </style>
+    <style name="txtABeeZeeregular15">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_2">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_border_gray_300_radius_10</item>
+    </style>
+    <style name="txtABeeZeeitalic12">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/bluegray_300</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_border_bluegray_300_radius_9</item>
+    </style>
+    <style name="txtSFUITextbold30">
+        <item name="android:textSize">30dp</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStyledeep_purple_A200cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_deep_purple_a200_radius_7</item>
+    </style>
+    <style name="txtABeeZeeregular15_1">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtABeeZeeregular12_1">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@color/black_900_99</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="txtSFUITextbold22">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    //loading screan's fab
+    <style name="fab_3_rounded">
+        <item name="shapeAppearance">@style/ShapeAppearanceOverlay.MyApp.Circle</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Circle" parent="">
+        <item name="cornerFamily">cut</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    //homepage's fab
+    <style name="CircularFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/CircularShapeAppearanceOverlay</item>
+    </style>
+
+    <style name="CircularShapeAppearanceOverlay" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+
+</resources>

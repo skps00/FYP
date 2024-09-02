@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 在这里添加你的对话框内容 -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialogbg"
+    android:id="@+id/content_layout"
+    android:windowSoftInputMode="adjustResize">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_round_remove_24"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/talk_with_your_ai_assistant"
+        android:padding="8dp"
+        android:textColor="@color/lavender"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ChatBox"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            tools:listitem="@layout/dialogflow_message_cell"
+            tools:itemCount="4" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:id="@+id/linearButton"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        style="@style/groupStylewhite_2">
+
+        <EditText android:ellipsize="end"
+            android:id="@+id/TextMessage"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:lineSpacingExtra="4dp"
+            android:singleLine="true"
+            android:layout_marginStart="10dp"
+            android:hint="@string/hint_message"
+            style="@style/txtInterregular18"/>
+
+        <ImageButton
+            android:background="@drawable/rectangle_bg_white_a700_border_gray_300_radius_24"
+            android:id="@+id/clearBtn"
+            android:layout_height="48dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="48dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/cleaning_icon"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:background="@drawable/rectangle_bg_white_a700_border_gray_300_radius_24"
+            android:id="@+id/sendBtn"
+            android:layout_height="48dp"
+            android:layout_marginStart="5dp"
+            android:layout_width="48dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_send_btn"
+            tools:ignore="ContentDescription"/>
+    </LinearLayout>
+
+
+</LinearLayout>
